@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "ADK45HBZ8N.com.koia.Koia.debug" ],
+             "components": [
+               {
+                  "/": "/*",
+                  "comment": "Matches any URL whose path starts with /"
+               }
+             ]
+           }
+       ]
+   }
+}
