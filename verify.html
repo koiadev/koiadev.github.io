@@ -15,6 +15,54 @@
   <link rel="shortcut icon" href="https://koia.app/favicon.png" />
   <title>Koia</title>
   <meta name=”description” content="Invest in what you know and love with Koia.">
+  <script>
+    function tryAgain() {
+      var currentLocation = window.location;
+      window.location.replace(currentLocation);
+    }
+  </script>
+  <style>
+@font-face {
+  font-family: 'Futura font bold';
+  src: url('https://uploads-ssl.webflow.com/600feaba6c6cfe618e38a6f6/60a7b006b22d7aedc6f75ab7_Futura%20Bold%20font.ttf') format('truetype'), url('https://uploads-ssl.webflow.com/600feaba6c6cfe618e38a6f6/60a7b006b22d7aedc6f75ab7_Futura%20Bold%20font.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura bt';
+  src: url('https://uploads-ssl.webflow.com/600feaba6c6cfe618e38a6f6/60a7b0067e74b35e8121ad3e_futura%20medium%20bt.ttf') format('truetype'), url('https://uploads-ssl.webflow.com/600feaba6c6cfe618e38a6f6/60a7b0067e74b35e8121ad3e_futura%20medium%20bt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+    font-family: "Futura font bold", "Trebuchet MS", Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Futura font bold", "Trebuchet MS", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.button {
+    border: none;
+    font-family: "Futura bt", "Trebuchet MS", Arial, sans-serif;
+    font-size: 24pt;
+    background-color: white;
+    color: #000099;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+}
+
+  </style>
 </head>
 <body style="background-color: #000099;">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" style="background-color: #000099">
@@ -46,6 +94,14 @@
     <div class="py-4 my-4">
       <h2 style="color: white; text-align: center;">Or tap this button to try again</h2>
     </div>
+    <div class="py-4 my-4">
+      <div class="d-flex justify-content-center container-fluid">
+        <button type="submit" class="button rounded-3" style="width:300px;" onclick="tryAgain()">Try Again</button>
+      </div>
+      <div class="py-4 my-4">
+
+      </div>
+  </div>
   </div>
 
 </body>
