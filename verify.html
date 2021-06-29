@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
           type="text/javascript"
           crossorigin="anonymous"></script>
@@ -65,7 +66,7 @@ h2 {
   </style>
 </head>
 <body style="background-color: #000099;">
-  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" style="background-color: #000099">
+  <div style="background-color: #000099">
     <div>
       <div class="py-4">
         <img src="https://uploads-ssl.webflow.com/600feaba6c6cfe618e38a6f6/60b60ac843f858b2c3565b10_logo-white.png"
@@ -76,26 +77,26 @@ h2 {
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container">
     <div class="py-4 my-4">
       <h1 style="color: white; text-align: center;">Ooops... Something went wrong</h1>
       <br>
       <h2 style="color: white; text-align: center;">Seems like the link did not work</h2>
     </div>
-    <div class="container-fluid">
+    <div>
       <img class="img-fluid mx-auto" src="hintimg.jpg" style="min-width: 150px !important; max-width: 240px !important; display: block;">
     </div>
     <div class="py-4 my-4">
       <h2 style="color: white; text-align: center;">Please use the code at the bottom of the email for verification</h2>
     </div>
-    <div class="container-fluid">
+    <div>
       <img class="img-fluid mx-auto" src="emailhint.jpg" style="min-width: 150px !important; max-width: 240px !important; display: block;">
     </div>
     <div class="py-4 my-4">
       <h2 style="color: white; text-align: center;">Or tap this button to try again</h2>
     </div>
     <div class="py-4 my-4">
-      <div class="d-flex justify-content-center container-fluid">
+      <div class="d-flex justify-content-center">
         <button type="submit" class="button rounded-3" style="width:300px;" onclick="tryAgain()">Try Again</button>
       </div>
       <div class="py-4 my-4">
